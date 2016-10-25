@@ -1,3 +1,11 @@
 html {
   font-family: sans-serif;
 }
+
+[date-state="playing"] .btn {
+  display: none;
+}
+
+[date-state="playing"]:hover .btn {
+  display: inline-block;
+}
