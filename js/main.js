@@ -3,7 +3,6 @@ var $video = $('#the-video');
 var $btn = $('#btn-play-pause');
 
 $btn.on('click', function() {
-  alert('alsdkjasldjas');
   if ($video.get(0).paused) {
     $video.get(0).play();
     $btn.html('Pause');
